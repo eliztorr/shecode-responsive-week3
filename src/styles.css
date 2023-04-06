@@ -99,7 +99,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-@media (min-width: 576px) {
+@media (max-width: 768px) {
   p {
     font-size: 16px;
   }
