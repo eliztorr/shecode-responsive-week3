@@ -1,0 +1,101 @@
+:root {
+  --primary-color: #d81978;
+  --secondary-color: #610b4e;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  line-height: 2;
+  margin: 60px auto;
+  padding-top: 100px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 94px;
+}
+p {
+  font-size: 20px;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+}
+.contact-info a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+.about-me {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+.contact-me {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+.about-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.about-info p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+.email-link:hover {
+  color: var(--primary-color);
+}
+.email-lin:visited {
+  color: var(--primary-color);
+}
+.homepage-link {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+.homepage-link:visited {
+  color: var(--primary-color);
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
