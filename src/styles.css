@@ -103,11 +103,14 @@ p {
   p {
     font-size: 16px;
   }
-  .button-link {
+  .primary-link {
     margin-left: auto;
     margin-right: auto;
   }
   .email-link {
     font-size: 16px;
+  }
+  .contact-text {
+    font-size: 20px;
   }
 }
